@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de803818-5a0f-4518-a0d6-7d5d82fc3646" name="Changes" comment="solved myself">
+    <list default="true" id="de803818-5a0f-4518-a0d6-7d5d82fc3646" name="Changes" comment="solved using Recursion method">
+      <change afterPath="$PROJECT_DIR$/algorithm/recursion/ways.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/recursion/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/recursion/fibonacci.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     "Python.factorial.executor": "Run",
     "Python.fibonacci.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.ways.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "python",
@@ -63,7 +64,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fibonacci">
+  <component name="RunManager" selected="Python.ways">
     <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyDSA" />
       <option name="ENV_FILES" value="" />
@@ -130,8 +131,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ways" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyDSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/recursion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/recursion/ways.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ways" />
         <item itemvalue="Python.fibonacci" />
         <item itemvalue="Python.factorial" />
       </list>
@@ -185,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712852262456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="solved using Recursion method">
+      <option name="closed" value="true" />
+      <created>1712853643454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712853643454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +225,7 @@
     <MESSAGE value="solved 1" />
     <MESSAGE value="Using Recursion method to solve factorial" />
     <MESSAGE value="solved myself" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved myself" />
+    <MESSAGE value="solved using Recursion method" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved using Recursion method" />
   </component>
 </project>
